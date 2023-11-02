@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: url("../components/location.png");
+    background-repeat: repeat-x;
+
+    width: 100vw;
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+}
+
+.heading {
+
+    color: white;
+    height: 80vh;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.postalcodeAndSearchBtn {
+    margin-left: 140px;
+}
+
+#PostalCode {
+    border-radius: 20px;
+    margin: 10px;
+    height: 60px;
+    width: 540px;
+    font-size: 30px;
+    padding-left: 30px;
+        padding-right: 30px;
+    /* padding: 10px; */
+}
+
+.searchBtn {
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 60px;
+    width: 130px;
+}
+
+.country {
+    font-size: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+}
+

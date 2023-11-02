@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    
+    
+    flex-direction: column;
+}
+.PlaceName{
+    font-size: 30px;
+}
+.longitude{
+    font-size: 25px;
+}
+.state{
+    font-size: 25px;
+}
